@@ -1,0 +1,15 @@
+﻿Criação de App para agendamento de serviços por clientes. 
+
+    
+Menu Agendar Novo ou Visualizr meus Agendamentos (Meus Agendamentos)       
+Tela de exibição dos serviços agendados, com cores para Realizado/Pendente         
+Tela com detalhes dos serviços agendados         
+Tela para Escolha do Animal        
+Tela para Escolha da Loja         
+Tela para Escolha do Tosador          
+Tela para Escolha do Serviço           
+Tela para Escolha do Horário            
+Tela para Confirmação do Agendamento            
+Tela para Ticket de Agendamento Confirmado Consulta e Inserção em Banco de Dados MySql já existente. 
+
+Controle de Bloqueio por IMEI - Alterando uma flag na tabela IMEI/Bloqueado, podemos bloquear o acesso ao aplicativo, pedindo para que entre em contato solicitando o desbloqueio. Controle para evitar agendamento novo, se já tiver agendamento pendente/futuro. Informações de Loja, Tosador, Serviços devem poder ser atualizadas pelo banco de dados, sem requerer nova versão de APP. 
