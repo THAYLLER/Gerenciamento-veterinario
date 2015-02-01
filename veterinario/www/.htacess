@@ -4,5 +4,5 @@ RewriteRule ^(.*)$ http://pxwstudio.com.br/thayller/veterinario/www/$1 [R=perman
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /aprovacao/login.php [L]
-ErrorDocument 404 /aprovacao/404.php
+RewriteRule . /www/login.php [L]
+ErrorDocument 404 /www/404.php

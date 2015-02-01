@@ -17,7 +17,7 @@
 			<nav>
 			  <ul class="nav nav-pills nav-stacked span2 menu">
 			    <li><a class="aa a" href="cadastroPaciente.php">VOLTAR</a></li>
-			    <li><a class="aa a" href="#">VACINAR</a></li>
+			    <li><a class="aa a" href="#" onclick="popUP('vacinacao.php', 'vacinas', 'width=470,height=300,toolbar=no,menubar=no,status=no,scrollbars=yes,resizable=yes');">VACINAR</a></li>
 			  </ul>
 			</nav>
         </div>
@@ -75,9 +75,19 @@
 				</table>
 			</div>
 		</div>
-
 	</div>
-
 </div>
-
+<script>
+	function popUP(nome, url, settings){
+	    var  w, h, left, top
+	    
+	    w=screen.width
+	    h=screen.height    
+	        
+	    left=(w-470)/2
+	    top=(h-300)/2
+	    settings+=", left="+left+", top="+top
+		window.open('vacinacao.php', 'vacinas', settings);
+	}
+</script>
 <?php include('footer.php');?>
